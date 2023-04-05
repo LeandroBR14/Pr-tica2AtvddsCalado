@@ -18,6 +18,8 @@ class Main{
             System.out.printf("O número %.0f é maior que o número %.0f", numero1, numero2);
         } if (numero2 > numero1) {
             System.out.printf("O número %.0f é maior que o número %.0f", numero2, numero1);
+        } else {
+            System.out.println("O número são iguais.");
         }
     }
 }
