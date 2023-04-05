@@ -10,22 +10,36 @@ class Main{
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Digite um primeiro número: ");
-        double numero1 = teclado.nextDouble();
+        double a = teclado.nextDouble();
 
-        System.out.print("Digite um primeiro número: ");
-        double numero2 = teclado.nextDouble();
+        System.out.print("Digite um segundo número: ");
+        double b = teclado.nextDouble();
 
-        System.out.print("Digite um primeiro número: ");
-        double numero3 = teclado.nextDouble();
+        System.out.print("Digite um terceiro número: ");
+        double c = teclado.nextDouble();
 
-        if (numero1 > numero2) {
-            if (numero2 > numero3) {
-                System.out.println(+numero1 +numero2 +numero3);
+        System.out.println("Maiores a esquerda <<<<<<\n\n");
+
+        if (a <= b && a <= c) {
+            if (b <= c) {
+               System.out.println(a + ", " + b + ", " + c);
+            } else {
+               System.out.println(a + ", " + c + ", " + b);
             }
-        }
+         } else if (b <= a && b <= c) {
+            if (a <= c) {
+               System.out.println(b + ", " + a + ", " + c);
+            } else {
+               System.out.println(b + ", " + c + ", " + a);
+            }
+         } else {
+            if (a <= b) {
+               System.out.println(c + ", " + a + ", " + b);
+            } else {
+               System.out.println(c + ", " + b + ", " + a);
+            }
 
         teclado.close();
-    }
+         }
+    }    
 }
-
-// FALTA TERMINAR!!
