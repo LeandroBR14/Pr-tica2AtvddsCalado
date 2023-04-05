@@ -18,8 +18,6 @@ class Main{
         System.out.print("Digite um terceiro número: ");
         double c = teclado.nextDouble();
 
-        System.out.println("Maiores a esquerda <<<<<<\n\n");
-
         if (a <= b && a <= c) {
             if (b <= c) {
                System.out.println(a + ", " + b + ", " + c);
