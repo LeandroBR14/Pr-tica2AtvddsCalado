@@ -5,7 +5,7 @@
 */
 
 import java.util.Scanner;
-class Main{
+class Atividade3{
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
@@ -13,13 +13,13 @@ class Main{
         int numero = teclado.nextInt();
 
         if (numero > 0) {
-            System.out.println("O  número é positivo.");
+            System.out.print("O  número é positivo");
         } if (numero < 0) {
-            System.out.println("O  número é negativo.");
+            System.out.print("O  número é negativo");
         } if (numero % 2 == 0) {
-            System.out.println("O  número é par.");
+            System.out.println(" e par.");
         } else {
-            System.out.println("O  número é ímpar.");
+            System.out.println(" e ímpar.");
         }
 
         teclado.close();
