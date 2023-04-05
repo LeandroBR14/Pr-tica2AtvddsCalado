@@ -8,7 +8,7 @@ opções acima o programa deve imprimir “Digitação errada. Tente Novamente�
 */
 
 import java.util.Scanner;
-class Main{
+class Atividade4{
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

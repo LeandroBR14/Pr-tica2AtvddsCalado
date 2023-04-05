@@ -8,7 +8,7 @@ com base no número digitado, o nome do mês e a estação.
 */
 
 import java.util.Scanner;
-class Main{
+class Atividade7{
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

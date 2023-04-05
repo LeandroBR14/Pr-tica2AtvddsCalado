@@ -5,7 +5,7 @@
 */
 
 import java.util.Scanner;
-class Main{
+class Atividade1{
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

@@ -8,7 +8,7 @@ R$ 8.00 por diária, se o número de diárias for menor que 15.
 */
 
 import java.util.Scanner;
-class Main{
+class Atividade6{
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
