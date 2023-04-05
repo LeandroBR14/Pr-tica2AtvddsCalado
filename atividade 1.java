@@ -21,5 +21,6 @@ class Main{
         } else {
             System.out.println("O número são iguais.");
         }
+        teclado.close();
     }
 }
