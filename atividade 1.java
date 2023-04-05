@@ -1,8 +1,7 @@
-/* Nome do Aluno: Fulano de Tal
-* RA:
-* Nome do Programa:
-* Descrição: 
-* Data:
+/* Nome do Aluno: Leandro Scalabrini
+* RA: 32318945
+* Nome do Programa: 1. Faça um programa que leia dois números A e B e imprima o maior deles.
+* Data: 4/4/2023
 */
 
 import java.util.Scanner;

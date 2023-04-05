@@ -1,7 +1,11 @@
-/*Faça um programa que leia o nome, o sobrenome, a idade, em anos, e a naturalidade (cidade de nascimento) de uma pessoa. Depois, o programa deve dar
+/* Nome do Aluno: Leandro Scalabrini
+* RA: 32318945
+* Nome do Programa: Faça um programa que leia o nome, o sobrenome, a idade, em anos, e a naturalidade (cidade de nascimento) de uma pessoa. Depois, o programa deve dar
 a seguinte opção “Deseja visualizar dados completos?”. Se o caractere digitado pelo usuário for ‘S’ o programa deve imprimir na tela Nome, Sobrenome,
 idade e naturalidade. Se o caractere digitado pelo usuário for ‘N’ o programa deve imprimir o Nome e a idade. Se o caractere não for nenhuma das outras
-opções acima o programa deve imprimir “Digitação errada. Tente Novamente”.*/
+opções acima o programa deve imprimir “Digitação errada. Tente Novamente”.
+* Data: 4/4/2023
+*/
 
 import java.util.Scanner;
 class Main{

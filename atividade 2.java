@@ -1,4 +1,8 @@
-/*Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar e se é positivo ou negativo.*/
+/* Nome do Aluno: Leandro Scalabrini
+* RA: 32318945
+* Nome do Programa: Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar e se é positivo ou negativo.
+* Data: 4/4/2023
+*/
 
 import java.util.Scanner;
 class Main{
