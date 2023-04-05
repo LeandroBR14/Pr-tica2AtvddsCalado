@@ -12,6 +12,18 @@ class Main{
         System.out.print("Digite um primeiro número: ");
         double numero1 = teclado.nextDouble();
 
+        System.out.print("Digite um primeiro número: ");
+        double numero2 = teclado.nextDouble();
+
+        System.out.print("Digite um primeiro número: ");
+        double numero3 = teclado.nextDouble();
+
+        if (numero1 > numero2) {
+            if (numero2 > numero3) {
+                System.out.println(+numero1 +numero2 +numero3);
+            }
+        }
+
         teclado.close();
     }
 }
