@@ -28,7 +28,7 @@ class Atividade4{
         String escolha = teclado.next();
 
         if (escolha.equalsIgnoreCase("s")) {
-            System.out.printf("Nome: " +nome);
+            System.out.println("Nome: " +nome);
             System.out.println("Sobrenome: " +sobrenome);
             System.out.println("Idade: " +idade);
             System.out.println("Naturalidade: " +nat);
@@ -37,7 +37,7 @@ class Atividade4{
             System.out.println("Nome: " +nome);
             System.out.println("Idade: " +idade);
         } else {
-            System.out.println("Digitação errada. Tente Novamente");
+            System.out.println("\nDigitação errada. Tente Novamente");
         }
 
         teclado.close();
